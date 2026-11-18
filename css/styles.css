@@ -1,0 +1,17 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FFF8F5;
+  color: #1E1E1E;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.hero h1 {
+  color: #FF6F61;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=styles.css.map */
