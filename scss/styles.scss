@@ -1,18 +1,19 @@
 @use 'variables' as *;
 
 body {
-  font-family: $fuente;
-  background-color: $claro;
+  font-family: $fuente-texto;
+  background-color: $crema;
   color: $oscuro;
+}
+
+h1, h2, h3 {
+  font-family: $fuente-titulos;
+  color: $coral;
+  letter-spacing: 1px;
 }
 
 .hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
-
-  h1 {
-    color: $coral;
-    font-weight: 700;
-  }
 }

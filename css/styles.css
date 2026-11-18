@@ -1,17 +1,19 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #FFF8F5;
-  color: #1E1E1E;
+  background-color: #EDE3D9;
+  color: #2B2321;
+}
+
+h1, h2, h3 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #F2483A;
+  letter-spacing: 1px;
 }
 
 .hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
-}
-.hero h1 {
-  color: #FF6F61;
-  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */
