@@ -1,19 +1,189 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #EDE3D9;
+  background-color: #EEE8DF;
   color: #2B2321;
 }
 
 h1, h2, h3 {
   font-family: "Bebas Neue", sans-serif;
-  color: #F2483A;
+  color: #DB5230;
   letter-spacing: 1px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+}
+
+section {
+  padding: 100px 0;
+}
+
+.etiqueta {
+  display: inline-block;
+  background-color: #E8B3BB;
+  color: #2B2321;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 6px 16px;
+  border-radius: 50px;
+  margin-bottom: 16px;
+}
+
+.btn-coral {
+  background-color: #DB5230;
+  color: #FFFFFF;
+  border: 2px solid #DB5230;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.btn-coral:hover {
+  background-color: #B8401F;
+  border-color: #B8401F;
+  color: #FFFFFF;
+}
+
+.btn-outline-coral {
+  background-color: transparent;
+  color: #DB5230;
+  border: 2px solid #DB5230;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.btn-outline-coral:hover {
+  background-color: #DB5230;
+  color: #FFFFFF;
+}
+
+.navbar {
+  background-color: rgba(238, 232, 223, 0.95);
+  min-height: 80px;
+  box-shadow: 0 2px 12px rgba(43, 35, 33, 0.08);
+}
+.navbar .logo-nav {
+  height: 50px;
+}
+.navbar .nav-link {
+  color: #2B2321;
+  font-weight: 600;
+}
+.navbar .nav-link:hover {
+  color: #DB5230;
+}
+.navbar .btn-coral {
+  padding: 8px 22px;
 }
 
 .hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  padding-top: 120px;
+}
+.hero h1 {
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  margin-bottom: 24px;
+}
+.hero .resaltado {
+  color: #2B2321;
+  background-color: #E8B3BB;
+  padding: 0 8px;
+  border-radius: 8px;
+}
+.hero .logo-hero {
+  max-width: 90%;
+}
+
+.servicios {
+  background-color: #E8B3BB;
+}
+.servicios .etiqueta {
+  background-color: #EEE8DF;
+}
+
+.card-servicio {
+  background-color: #EEE8DF;
+  border-radius: 24px;
+  padding: 36px;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-servicio:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(43, 35, 33, 0.12);
+}
+.card-servicio .numero {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  color: #F5BD20;
+  line-height: 1;
+}
+.card-servicio h3 {
+  font-size: 2rem;
+  margin: 8px 0 16px;
+}
+.card-servicio p {
+  margin-bottom: 0;
+}
+
+.foto-pendiente {
+  aspect-ratio: 4/5;
+  max-width: 360px;
+  margin: 0 auto;
+  border: 3px dashed #E8B3BB;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #DB5230;
+  font-weight: 600;
+}
+
+.foto-perfil {
+  border-radius: 24px;
+  max-width: 360px;
+}
+
+.contacto {
+  background-color: #E8B3BB;
+}
+.contacto .etiqueta {
+  background-color: #EEE8DF;
+}
+
+.footer {
+  background-color: #2B2321;
+  color: #EEE8DF;
+  padding: 40px 0 24px;
+}
+.footer .logo-footer {
+  height: 60px;
+}
+.footer a {
+  color: #EEE8DF;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer a:hover {
+  color: #E8B3BB;
+}
+.footer .icono-footer {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+.footer .copy {
+  font-size: 0.85rem;
+  opacity: 0.7;
 }
 
 /*# sourceMappingURL=styles.css.map */

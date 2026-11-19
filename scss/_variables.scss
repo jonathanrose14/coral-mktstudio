@@ -1,11 +1,17 @@
-// ===== Colores de Coral =====
-$crema: #EDE3D9;      // fondo general
-$rosa: #EBB4B8;       // manchas y fondos de secciones
-$coral: #F2483A;      // títulos, botones, marca
+// ===== Colores de Coral (sacados del logo) =====
+$crema: #EEE8DF;      // fondo general
+$rosa: #E8B3BB;       // la mancha del logo, fondos de secciones
+$coral: #DB5230;      // letras del logo: títulos, botones, marca
+$coral-oscuro: #B8401F; // hover de los botones
 $azul: #1F6FE5;       // detalles
 $amarillo: #F5BD20;   // detalles decorativos
-$oscuro: #2B2321;     // texto (un marrón casi negro, más cálido que el negro puro)
+$oscuro: #2B2321;     // texto (marrón casi negro, más cálido que el negro puro)
+$blanco: #FFFFFF;
 
 // ===== Tipografías =====
 $fuente-titulos: 'Bebas Neue', sans-serif;  // parecida a la de los posts
 $fuente-texto: 'Poppins', sans-serif;
+
+// ===== Medidas =====
+$alto-navbar: 80px;
+$radio: 24px;
